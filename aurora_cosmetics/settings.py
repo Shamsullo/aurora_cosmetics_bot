@@ -28,7 +28,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'aurora_costmetics.urls'
+ROOT_URLCONF = 'aurora_cosmetics.urls'
 
 TEMPLATES = [
     {
@@ -46,7 +46,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'aurora_costmetics.wsgi.application'
+WSGI_APPLICATION = 'aurora_cosmetics.wsgi.application'
 
 DATABASES = {
     'default': {
